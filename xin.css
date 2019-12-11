@@ -87,53 +87,48 @@ a {
     background-size: cover;
     width: 100%;
     height: 100%;
+    padding-left: 13%;
+}
+.zi1 {
+  position: absolute;
+  margin-left: -285px;
+  margin-top: 260px;
 }
 .tu1 {
-    width: 300px;
-    height: 300px;
-    padding-left: 10px;
-    padding-top: 20px;
+  width: 300px;
+  height: 300px;
 }
-.tu2 {
-    width: 300px;
-    height: 300px;
-    padding-left: 10px;
-    padding-top: 20px;
-}
-.tu3 {
-    width: 300px;
-    height: 300px;
-    padding-left: 10px;
-    padding-top: 20px;
-}
+
 .icon-list {
-    list-style: none;
-    padding-left: 10px;
-    color: #999;
-    line-height: 1;
-    text-align: center;
-    }
+  list-style: none;
+  padding-left: 10px;
+  color: #999;
+  line-height: 1;
+  text-align: center;
+}
 .icon-list__item {
-    display: inline-block;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .o-icon {
-    text-align: center;
-    display: inline-block;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-right: 5px;
-    vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  padding-left: 80px;
+  padding-right: 100px;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
 }
 .driv, .weather, .accomm, .trans {
-    font-size: 20px;
-    color: black;
+  font-size: 20px;
+  color: black;
 }
 p {
-    font-size: 13px;
-    color: lightslategrey;
+  font-size: 13px;
+  color: lightslategrey;
 }
 .icon-list__item svg { 
   display: inline;
@@ -141,40 +136,22 @@ p {
   max-width: 80px;
 }
 .o-icon svg {
-    display: inline;
-    max-height: 80px;
-    max-width: 80px;
+  display: inline;
+  max-height: 80px;
+  max-width: 80px;
 }
 .oo {
-    width: 95%;
-    height: 10%;
-    margin: 32px;
-}
-.icon-search {
-  color: white;
-  width: 12px;
-  height: 12px;
-  border-radius: 100%;
-  border: 2px solid currentColor;
-  position: relative;
-  margin: 30px auto;
-}
-.icon-search:after {
-    color: white;
-    background-color: currentColor;
-    position: absolute;
-    top: 13px;
-    left: 11px;
-}
-.tupian {
-  position: absolute;
+  width: 70%;
+  height: 25%;
+  margin: 32px;
+  padding-left: 200px;
 }
 .tuwenzi {
-position: absolute;
-color: white;
-top: 270px;
-left: 100px;
-font-size: 15px;
+  position: absolute;
+  color: white;
+  top: 270px;
+  left: 100px;
+  font-size: 15px;
 }
 .zi {
   background-color: black;
@@ -192,5 +169,23 @@ font-size: 15px;
   text-align: center;
 }
 .zui {
-    background-color: black;
+  background-color: black;
+}
+.zui ul li {
+  color: #fff;
+
+}
+.bann {
+  position: relative;
+}
+.banner {
+  width: 100%;
+  height: 100%;
+}
+.bannar {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 50px;
+  right: 200px;
 }
